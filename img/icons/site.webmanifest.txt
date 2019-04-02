@@ -1,6 +1,6 @@
 {
     "name": "Reed Creative Info",
-    "short_name": "RCI",
+    "short_name": "Reed Creative",
     "icons": [
         {
             "src": "/img/icons/android-chrome-192x192.png",
