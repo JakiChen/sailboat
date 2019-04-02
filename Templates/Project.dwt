@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>
+		案例 - UI/UX 设计机构 | 产品策略 | 专注于初创企业服务设计的SMART机构
+	</title>
+	<!-- TemplateEndEditable -->
+	
+	<!-- TemplateBeginEditable name="head" -->
+	<meta name="description" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5">
+	
+	<!-- Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.reedcreative.info/">
+	<meta property="og:title" content="Reed Creative Info">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="1200x630.png">
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="Reed Creative Info">
+	<meta name="twitter:creator" content="@ReedCreative">
+	<meta name="twitter:title" content="Reed Creative Info">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image" content="640x404.png">
+	
+	<!-- Google + -->
+	<meta itemprop="name"        content="Reed Creative Info">
+	<meta itemprop="description" content="">
+	<meta itemprop="image"       content="1200x630.png">
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+	<link rel="manifest" href="img/icons/site.webmanifest.txt">
+	<link rel="mask-icon" href="img/icons/safari-pinned-tab.svg.html" color="#ff3322">
+	<link rel="shortcut icon" href="img/icons/favicon.ico">
+	
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ff3322">
+
+	<link rel="preload" href="fonts/DrukWide-Super-Web.woff2" as="font" crossorigin="anonymous">
+	<!-- TemplateEndEditable -->
+	
+</head>
+
+<body>
+	
+</body>
+</html>
