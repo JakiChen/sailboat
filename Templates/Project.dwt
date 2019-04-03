@@ -120,16 +120,18 @@
 	
 	<!--<div class="curtain" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; background-color: #f2f2f2"></div>-->
 	
-	<!-- TemplateBeginEditable name="contents" -->
+	
 	<!-- barba-wrapper -->
 	<div id="barba-wrapper">
 		<div class="barba-container" data-namespace="work-page">
 			<div class="barba-transition-container">
 				<section class="case-study basicScroll">
-					<a class="btn-page-back" href="../index.html">
+					
+					<a class="btn-page-back" href="/">
 						<span class="btn-box"><span class="icon-back"></span></span>
 					</a>
 					
+					<!-- TemplateBeginEditable name="contents" -->
 					<!-- main - contents -->
 					<div class="container">
 						<div class="content">
@@ -339,13 +341,14 @@
 						
 					</div>
 					<!-- /main - contents -->
+					<!-- TemplateEndEditable -->
 					
 				</section>
 			</div>
 		</div>	
 	</div>
 	<!-- /barba-wrapper -->
-	<!-- TemplateEndEditable -->
+	
 	
 
 	<!-- about section -->
