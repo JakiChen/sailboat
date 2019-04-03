@@ -40,16 +40,17 @@ button {
     -webkit-appearance: button
 }
 [type=button]::-moz-focus-inner, button::-moz-focus-inner {
-border-style:none;
-padding:0
+	border-style:none;
+	padding:0
 }
 [type=button]:-moz-focusring, button:-moz-focusring {
-outline:1px dotted ButtonText
+	outline:1px dotted ButtonText
 }
 ::-webkit-file-upload-button {
--webkit-appearance:button;
-font:inherit
+	-webkit-appearance:button;
+	font:inherit
 }
+
 body, button {
     font-family: akzidenz-grotesk, sans-serif;
     font-size: 14px;
@@ -160,19 +161,19 @@ button.link {
 }
 
 @media screen and (max-width:767px) {
-.btn-back {
-    top: 5vw;
-    right: 15px
-}
-.btn-back:before {
-    display: none
-}
+	.btn-back {
+		top: 5vw;
+		right: 15px
+	}
+	.btn-back:before {
+		display: none
+	}
 }
 
 @media screen and (min-width:768px) {
-.btn-back {
-    display: block
-}
+	.btn-back {
+		display: block
+	}
 }
 .btn-box {
     display: -ms-flexbox;
@@ -241,15 +242,15 @@ body.ultra-mode .about .left, body.ultra-mode .about .right {
 }
 
 @media screen and (min-width:768px) {
-body.ultra-mode .about:before {
-    display: none
-}
+	body.ultra-mode .about:before {
+		display: none
+	}
 }
 
 @media screen and (max-width:767px) {
-body.ultra-mode .ui .info {
-    background-color: rgba(0,0,0,.85)
-}
+	body.ultra-mode .ui .info {
+		background-color: rgba(0,0,0,.85)
+	}
 }
 body.ultra-mode {
     background-color: #ff3322
@@ -264,43 +265,43 @@ body.ultra-mode .logo {
     color: #fff
 }
 @supports (-webkit-text-stroke:1px #fff) or (text-stroke:1px #fff) {
-body.ultra-mode .logo {
--webkit-text-stroke:1px #fff;
-text-stroke:1px #fff
-}
+	body.ultra-mode .logo {
+		-webkit-text-stroke:1px #fff;
+		text-stroke:1px #fff
+	}
 }
 
 @media screen and (max-width:767px) {
-body.ultra-mode .ui .info {
-    background-color: rgba(72,1,255,.85)
-}
+	body.ultra-mode .ui .info {
+		background-color: rgba(72,1,255,.85)
+	}
 }
 @supports (-webkit-text-stroke:3px #000) or (text-stroke:3px #000) {
-body.ultra-mode.home-page .projects a {
-color:#000;
--webkit-text-stroke:3px #000;
-text-stroke:3px #000
-}
+	body.ultra-mode.home-page .projects a {
+		color:#000;
+		-webkit-text-stroke:3px #000;
+		text-stroke:3px #000
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1320px) {
 @supports (-webkit-text-stroke:2px #000) or (text-stroke:2px #000) {
-body.ultra-mode.home-page .projects a {
-color:#000;
--webkit-text-stroke:2px #000;
-text-stroke:2px #000
-}
-}
+	body.ultra-mode.home-page .projects a {
+			color:#000;
+			-webkit-text-stroke:2px #000;
+			text-stroke:2px #000
+		}
+	}
 }
 
 @media screen and (max-width:767px) {
 @supports (-webkit-text-stroke:1px #151515) or (text-stroke:1px #151515) {
-body.ultra-mode.home-page .projects a {
-color:#000;
--webkit-text-stroke:0 #151515;
-text-stroke:0 #151515
-}
-}
+	body.ultra-mode.home-page .projects a {
+			color:#000;
+			-webkit-text-stroke:0 #151515;
+			text-stroke:0 #151515
+		}
+	}
 }
 .ui {
     display: -ms-flexbox;
