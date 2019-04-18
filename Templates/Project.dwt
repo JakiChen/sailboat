@@ -44,6 +44,18 @@
 	<link rel="preload" href="../fonts/DrukWide-Super-Web.woff2" as="font" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/inside.css">
 	
+	<!-- Adobe typekit font: 思源黑体 -->
+	<script>
+		(function(d) {
+				var config = {
+				kitId: 'eus4mwj',
+				scriptTimeout: 3000,
+				async: true
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script>
+	
 </head>
 
 <body class="work-page navTop loading first-load">
@@ -148,25 +160,38 @@
 						<!-- ntro reveal -->
 						<section class="intro reveal">
 							
-							<div class="credits">
-								<h5><a href="#" target="_blank" rel="noopener">URL</a></h5>
-								<h6>Lele Mobile</h6>
-								<span class="title">Agency:</span>
-								<span>Reed Creative Info </span>
-								<span class="title">UI/UX Design:</span>
-								<span>Jaki Chen</span>
-								<span class="title">Researcher</span>
-								<span>Jaki Chen</span>
+							<div class="credits project-detail">
+								<h5><a href="#" target="_blank" rel="noopener">lele.com</a></h5>
+								<h6>乐乐 - 知识技能社群 </h6>
+								
+								<h7 class = "project-service-title">服务</h7>
+								<ul class="project-service">
+									<li><a href="#part-1">&mdash; Product Strategy</a</li>
+									<li><a href="#part-2">&mdash; Research</a></li>
+									<li><a href="#part-3">&mdash; UX Design</a></li>
+									<li><a href="#part-4">&mdash; Visual Design</a></li>
+									<li><a href="#part-5">&mdash; App Design</a></li>
+									<li><a href="#part-6">&mdash; Motion Design</a></li>
+								</ul>
+								
 							</div>
 							
 							<div class="summary reveal">
-								<div class="col-1">
-									<p><strong>Studio Mega is a brand design agency based in Portland, Oregon.</strong></p>
-									<p>With simplicity, flexibility, and maintainability in mind we built a website uniquely&nbsp;mega.</p>
+								<div class="col-1 project-detail">
+									<h3 class="project-title">乐乐 | 知识社群博弈中的产品策略</h3>
+									<h4 class="project-sub-title" id="part-1">背景挑战</h4>
+									<p class="project-p">
+										2014 年底，快的打车找到 EICO，希望我们为其重新设计整个移动平台的产品体验，那时正值打车市场竞争最激烈的时候。
+										我们希望在高度白热化的竞争之中，为快的打车做出真正关注用户体验的设计创新。
+									</p>
+									<h4 class="project-sub-title" id="part-2">核心结论</h4>
+									<p class="project-p">
+										研究发现，旅游仍然是中国高端消费者最青睐的休闲娱乐方式。中国超级旅游者平均去过40多个国家；
+										去年平均出国36天，其中有一半是旅游；人均旅游花费15万；这些人中66%会考虑医疗旅游；热衷海岛度假和自驾游；
+										邮轮旅游的首选目的地是加勒比海。
+									</p>
 								</div>
-								<div class="col-2">
-									<p>Powered by a Craft CMS back-end the website is easy to manage and update. There are several customizable content blocks that can be added and rearranged to make case studies be presented in a meaningful&nbsp;way.</p>
-								</div>
+								
 							</div>
 						</section>
 						<!-- / ntro reveal -->

@@ -1,0 +1,336 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+html, body {
+    font-family: source-han-sans-simplified-c, sans-serif, Acumin Pro;
+	font-weight: 700;
+	font-style: normal;
+    background: transparent
+}
+.forceAcumin, div#ImageContainer {
+    font-family: Acumin Pro!important
+}
+div#ImageContainer {
+    padding: 50px calc(50px + env(safe-area-inset-right)) 50px calc(50px + env(safe-area-inset-left));
+    min-height: 100vh;
+    background: #fff;
+    box-sizing: border-box
+}
+
+@media only screen and (max-width:750px) {
+div#ImageContainer {
+    padding: 25px calc(25px + env(safe-area-inset-right)) 25px calc(25px + env(safe-area-inset-left))
+}
+}
+div#ImageContainer>h1 {
+    margin-top: 0
+}
+div#ImageContainer div#Image {
+    width: 100%;
+    height: 75vh;
+    min-height: 500px;
+    border: 10px solid #333
+}
+div#ImageContainer div#Image>img {
+    width: 100%;
+    height: 100%
+}
+div#ImageContainer div#Options {
+    margin: 40px 0 20px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start
+}
+div#ImageContainer div#Options>div {
+    margin-left: 20px
+}
+div#ImageContainer div#Options>div:first-child {
+    margin-left: 0
+}
+div#ImageContainer div#Options>div>span:first-child {
+    display: block;
+    margin-bottom: 10px
+}
+div#ImageContainer div#Options>div .select {
+    min-width: 100px
+}
+div#ImageContainer div#Options>div .colorinput {
+    margin: 0!important
+}
+div#ImageContainer div#Options>div .colorinput.disable {
+    opacity: .5;
+    pointer-events: none
+}
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+a {
+    background-color: transparent
+}
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+b, strong {
+    font-weight: bolder
+}
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+small {
+    font-size: 80%
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sub {
+    bottom: -.25em
+}
+sup {
+    top: -.5em
+}
+img {
+    border-style: none
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+button, input {
+    overflow: visible
+}
+button, select {
+    text-transform: none
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button
+}
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+border-style:none;
+padding:0
+}
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+outline:1px dotted ButtonText
+}
+fieldset {
+    padding: .35em .75em .625em
+}
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+progress {
+    vertical-align: baseline
+}
+textarea {
+    overflow: auto
+}
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+height:auto
+}
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+[type=search]::-webkit-search-decoration {
+-webkit-appearance:none
+}
+::-webkit-file-upload-button {
+-webkit-appearance:button;
+font:inherit
+}
+details {
+    display: block
+}
+summary {
+    display: list-item
+}
+[hidden], template {
+    display: none
+}
+
+body {
+    background: #202020
+}
+body.loading {
+    pointer-events: none
+}
+body:not(.onhover).hasgyro {
+    background: #2d2d2d
+}
+* {
+    box-sizing: border-box
+}
+#Container {
+    min-height: 100vh;
+    padding: 50px calc(50px + env(safe-area-inset-right)) calc(50px + env(safe-area-inset-bottom)) calc(50px + env(safe-area-inset-left))
+}
+
+@media only screen and (max-width:1023px) {
+#Container {
+    padding: 35px calc(35px + env(safe-area-inset-right)) calc(35px + env(safe-area-inset-bottom)) calc(35px + env(safe-area-inset-left))
+}
+}
+
+@media only screen and (max-width:750px) {
+#Container {
+    padding: 25px calc(25px + env(safe-area-inset-right)) calc(25px + env(safe-area-inset-bottom)) calc(25px + env(safe-area-inset-left))
+}
+}
+#Container>#Background {
+    z-index: -1;
+    position: fixed;
+    width: 200vmax;
+    height: 200vmax;
+    top: 50%;
+    left: 50%;
+    margin-left: -100vmax;
+    margin-top: -100vmax;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    background: #0a0a0a;
+    background-image: radial-gradient(#000 0, #202020 50%);
+    transition: opacity .5s, -webkit-transform .01s;
+    transition: opacity .5s, transform .01s;
+    transition: opacity .5s, transform .01s, -webkit-transform .01s
+}
+body:not(.onhover):not(.hasgyro) #Container>#Background {
+    background-image: linear-gradient(180deg, #000 10%, #101010)
+}
+body:not(.onhover).hasgyro #Container>#Background {
+    background-image: radial-gradient(#000 5%, #2d2d2d 40%)
+}
+body.loading #Container>#Background {
+    opacity: 0
+}
+#Container .label {
+    font-family: Acumin Pro, Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    left: calc(50px + env(safe-area-inset-left));
+    transition: opacity 1.25s .25s
+}
+
+@media only screen and (max-width:1023px) {
+#Container .label {
+    top: 35px;
+    left: 35px;
+    left: calc(35px + env(safe-area-inset-left));
+    font-size: 12px
+}
+}
+
+@media only screen and (max-width:750px) {
+#Container .label {
+    top: 25px;
+    left: 25px;
+    left: calc(25px + env(safe-area-inset-left))
+}
+}
+body.loading #Container .label {
+    opacity: 0
+}
+#Container .content {
+
+    color: #222;
+    font-size: 60px;
+    padding: 75px 0 0;
+    transition: color .25s, opacity 1.25s .5s
+}
+
+@media only screen and (max-width:1023px) {
+#Container .content {
+    font-size: 50px;
+    padding-top: 50px
+}
+}
+
+@media only screen and (max-width:750px) {
+#Container .content {
+    font-size: 40px;
+    padding-top: 40px
+}
+}
+body:not(.onhover) #Container .content {
+    color: #333
+}
+body.loading #Container .content {
+    opacity: 0
+}
+#Container .content>p {
+    width: 100%;
+    cursor: default
+}
+#Container .content>p:first-child {
+    margin-top: 0
+}
+#Container .content>p:last-child {
+    margin-bottom: 0
+}
+#Container .content>p>a {
+    cursor: pointer;
+    max-width: 100%;
+    color: #222;
+    transition: color .25s;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+body.onhover #Container .content>p>a {
+    text-decoration: none
+}
+body.onhover #Container .content>p>a:hover {
+    color: #fff
+}
+body:not(.onhover) #Container .content>p>a {
+    color: #333
+}

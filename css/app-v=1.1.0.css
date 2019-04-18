@@ -277,8 +277,8 @@ body, button, input {
 @font-face {
     font-family: Druk Wide Web;
     src:url("../fonts/DrukWide-Medium-Web.eot");
-    src:url("../fonts/DrukWide-Medium-Web-.eot#iefix") format("embedded-opentype"), 
-		url("../fonts/DrukWide-Medium-Web.woff2") format("woff2"), 
+    src:url("../fonts/DrukWide-Medium-Web-.eot#iefix") format("embedded-opentype"),
+		url("../fonts/DrukWide-Medium-Web.woff2") format("woff2"),
 		url("../fonts/DrukWide-Medium-Web.woff") format("woff");
     font-weight: 500;
     font-style: normal;
@@ -287,8 +287,8 @@ body, button, input {
 @font-face {
     font-family: Druk Wide Web;
     src:url("../fonts/DrukWide-Super-Web.eot");
-    src:url("../fonts/DrukWide-Super-Web-.eot#iefix") format("embedded-opentype"), 
-		url("../fonts/DrukWide-Super-Web.woff2") format("woff2"), 
+    src:url("../fonts/DrukWide-Super-Web-.eot#iefix") format("embedded-opentype"),
+		url("../fonts/DrukWide-Super-Web.woff2") format("woff2"),
 		url("../fonts/DrukWide-Super-Web.woff") format("woff");
     font-weight: 900;
     font-style: normal;
@@ -566,94 +566,94 @@ body.night-mode .ui .copyright, body.ultra-mode .ui .copyright {
 }
 
 @media screen and (min-width:1025px) {
-	body.night-mode.uiHover:not(.aboutShow) body.night-mode .copyright, 
-	body.night-mode.uiHover:not(.aboutShow) body.ultra-mode .copyright, 
-	body.ultra-mode.uiHover:not(.aboutShow) body.night-mode .copyright, 
+	body.night-mode.uiHover:not(.aboutShow) body.night-mode .copyright,
+	body.night-mode.uiHover:not(.aboutShow) body.ultra-mode .copyright,
+	body.ultra-mode.uiHover:not(.aboutShow) body.night-mode .copyright,
 	body.ultra-mode.uiHover:not(.aboutShow) body.ultra-mode .copyright {
 		opacity: .5
 	}
 }
 
-body.night-mode .mobile-nav, 
+body.night-mode .mobile-nav,
 body.ultra-mode .mobile-nav {
     border-color: #f2f2f2
 }
-body.night-mode .mobile-nav-inner, 
-body.night-mode .mobile-nav-inner:after, 
-body.night-mode .mobile-nav-inner:before, 
-body.ultra-mode .mobile-nav-inner, 
-body.ultra-mode .mobile-nav-inner:after, 
+body.night-mode .mobile-nav-inner,
+body.night-mode .mobile-nav-inner:after,
+body.night-mode .mobile-nav-inner:before,
+body.ultra-mode .mobile-nav-inner,
+body.ultra-mode .mobile-nav-inner:after,
 body.ultra-mode .mobile-nav-inner:before {
     background-color: #f2f2f2
 }
-body.night-mode .ui a:not(.logo), 
-body.night-mode .ui button.link, 
-body.ultra-mode .ui a:not(.logo), 
+body.night-mode .ui a:not(.logo),
+body.night-mode .ui button.link,
+body.ultra-mode .ui a:not(.logo),
 body.ultra-mode .ui button.link {
     color: #f2f2f2
 }
-body.night-mode .ui .links .about-li:after, 
-body.night-mode .ui .links .journal-li:after, 
-body.ultra-mode .ui .links .about-li:after, 
+body.night-mode .ui .links .about-li:after,
+body.night-mode .ui .links .journal-li:after,
+body.ultra-mode .ui .links .about-li:after,
 body.ultra-mode .ui .links .journal-li:after {
     background-color: #f2f2f2
 }
-body.night-mode .btn-back:hover:before, 
-body.night-mode .btn-page-back:hover:before, 
-body.ultra-mode .btn-back:hover:before, 
+body.night-mode .btn-back:hover:before,
+body.night-mode .btn-page-back:hover:before,
+body.ultra-mode .btn-back:hover:before,
 body.ultra-mode .btn-page-back:hover:before {
     border-color: #f2f2f2
 }
-body.night-mode .icon-back, 
-body.night-mode .icon-back:after, 
-body.night-mode .icon-back:before, 
-body.night-mode .icon-close:after, 
-body.night-mode .icon-close:before, 
-body.ultra-mode .icon-back, 
-body.ultra-mode .icon-back:after, 
-body.ultra-mode .icon-back:before, 
-body.ultra-mode .icon-close:after, 
+body.night-mode .icon-back,
+body.night-mode .icon-back:after,
+body.night-mode .icon-back:before,
+body.night-mode .icon-close:after,
+body.night-mode .icon-close:before,
+body.ultra-mode .icon-back,
+body.ultra-mode .icon-back:after,
+body.ultra-mode .icon-back:before,
+body.ultra-mode .icon-close:after,
 body.ultra-mode .icon-close:before {
     background-color: #f2f2f2
 }
-body.night-mode .btn-gallery-left svg path, 
-body.night-mode .btn-gallery-right svg path, 
-body.ultra-mode .btn-gallery-left svg path, 
+body.night-mode .btn-gallery-left svg path,
+body.night-mode .btn-gallery-right svg path,
+body.ultra-mode .btn-gallery-left svg path,
 body.ultra-mode .btn-gallery-right svg path {
     fill: #f2f2f2
 }
-body.night-mode.aboutShow .content, 
-body.night-mode.aboutShow .stagePerspective, 
-body.ultra-mode.aboutShow .content, 
+body.night-mode.aboutShow .content,
+body.night-mode.aboutShow .stagePerspective,
+body.ultra-mode.aboutShow .content,
 body.ultra-mode.aboutShow .stagePerspective {
     opacity: .1
 }
-body.night-mode .about:before, 
+body.night-mode .about:before,
 body.ultra-mode .about:before {
     background-color: rgba(0,0,0,.85)
 }
-body.night-mode .about .left, 
-body.night-mode .about .right, 
-body.ultra-mode .about .left, 
+body.night-mode .about .left,
+body.night-mode .about .right,
+body.ultra-mode .about .left,
 body.ultra-mode .about .right {
     color: #f2f2f2
 }
 
 @media screen and (min-width:768px) {
-	body.night-mode .about:before, 
+	body.night-mode .about:before,
 	body.ultra-mode .about:before {
 		display: none
 	}
 }
 
 @media screen and (max-width:767px) {
-	body.night-mode .ui .info, 
+	body.night-mode .ui .info,
 	body.ultra-mode .ui .info {
 		background-color: rgba(0,0,0,.85)
 	}
 }
 @supports (-webkit-text-stroke:2px #f2f2f2) or (text-stroke:2px #f2f2f2) {
-	body.night-mode.home-page:not(.ultra-mode) .projects a, 
+	body.night-mode.home-page:not(.ultra-mode) .projects a,
 	body.ultra-mode.home-page:not(.ultra-mode) .projects a {
 		color:transparent;
 		-webkit-text-stroke:2px #f2f2f2;
@@ -661,21 +661,21 @@ body.ultra-mode .about .right {
 	}
 }
 @supports (-webkit-text-stroke:0px #f2f2f2) or (text-stroke:0px #f2f2f2) {
-	body.night-mode.home-page:not(.ultra-mode):not(.intro):not(.outro) .projects.isHovering li:hover a, 
-	body.night-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected:hover a, 
-	body.night-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected a, 
-	body.ultra-mode.home-page:not(.ultra-mode):not(.intro):not(.outro) .projects.isHovering li:hover a, 
-	body.ultra-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected:hover a, 
+	body.night-mode.home-page:not(.ultra-mode):not(.intro):not(.outro) .projects.isHovering li:hover a,
+	body.night-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected:hover a,
+	body.night-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected a,
+	body.ultra-mode.home-page:not(.ultra-mode):not(.intro):not(.outro) .projects.isHovering li:hover a,
+	body.ultra-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected:hover a,
 	body.ultra-mode.home-page:not(.ultra-mode):not(.outro) .projects li.isSelected a {
 		color:#f2f2f2
 	}
 }
 @supports (-webkit-text-stroke:2px #f2f2f2) or (text-stroke:2px #f2f2f2) {
-	body.night-mode.home-page:not(.ultra-mode).outro .projects.isHovering li:hover a, 
-	body.night-mode.home-page:not(.ultra-mode).outro .projects li.isSelected:hover a, 
-	body.night-mode.home-page:not(.ultra-mode).outro .projects li.isSelected a, 
-	body.ultra-mode.home-page:not(.ultra-mode).outro .projects.isHovering li:hover a, 
-	body.ultra-mode.home-page:not(.ultra-mode).outro .projects li.isSelected:hover a, 
+	body.night-mode.home-page:not(.ultra-mode).outro .projects.isHovering li:hover a,
+	body.night-mode.home-page:not(.ultra-mode).outro .projects li.isSelected:hover a,
+	body.night-mode.home-page:not(.ultra-mode).outro .projects li.isSelected a,
+	body.ultra-mode.home-page:not(.ultra-mode).outro .projects.isHovering li:hover a,
+	body.ultra-mode.home-page:not(.ultra-mode).outro .projects li.isSelected:hover a,
 	body.ultra-mode.home-page:not(.ultra-mode).outro .projects li.isSelected a {
 		color:transparent;
 		transition:color .5s .5s, opacity 1s;
@@ -692,7 +692,7 @@ body.night-mode.home-page:not(.ultra-mode) .projects a:after, body.ultra-mode.ho
 
 @media screen and (max-width:767px) {
 	@supports (-webkit-text-stroke:1px #f2f2f2) or (text-stroke:1px #f2f2f2) {
-		body.night-mode.home-page:not(.ultra-mode) .projects a, 
+		body.night-mode.home-page:not(.ultra-mode) .projects a,
 		body.ultra-mode.home-page:not(.ultra-mode) .projects a {
 			-webkit-text-stroke:1px #f2f2f2;
 			text-stroke:1px #f2f2f2
@@ -701,39 +701,39 @@ body.night-mode.home-page:not(.ultra-mode) .projects a:after, body.ultra-mode.ho
 }
 
 @supports (-webkit-text-stroke:1px #fff) or (text-stroke:1px #fff) {
-	body.night-mode.work-page .case-study .hero .title, 
+	body.night-mode.work-page .case-study .hero .title,
 	body.ultra-mode.work-page .case-study .hero .title {
 		-webkit-text-stroke:1px #fff;
 		text-stroke:1px #fff
 	}
 }
 
-body.night-mode.journal-page .journal .cta, 
-body.night-mode.work-page .case-study .intro .credits a, 
-body.ultra-mode.journal-page .journal .cta, 
+body.night-mode.journal-page .journal .cta,
+body.night-mode.work-page .case-study .intro .credits a,
+body.ultra-mode.journal-page .journal .cta,
 body.ultra-mode.work-page .case-study .intro .credits a {
     color: #f2f2f2;
 }
 
-body.night-mode.journal-page .journal .read-more:after, 
+body.night-mode.journal-page .journal .read-more:after,
 body.ultra-mode.journal-page .journal .read-more:after {
     border-bottom-color: #f2f2f2;
 }
 
-body.night-mode .module-copy .col-1 a, 
-body.night-mode .module-copy .col-2 a, 
-body.night-mode .module-project a, 
-body.night-mode .module-project a:hover .project-name, 
-body.ultra-mode .module-copy .col-1 a, 
-body.ultra-mode .module-copy .col-2 a, 
-body.ultra-mode .module-project a, 
+body.night-mode .module-copy .col-1 a,
+body.night-mode .module-copy .col-2 a,
+body.night-mode .module-project a,
+body.night-mode .module-project a:hover .project-name,
+body.ultra-mode .module-copy .col-1 a,
+body.ultra-mode .module-copy .col-2 a,
+body.ultra-mode .module-project a,
 body.ultra-mode .module-project a:hover .project-name {
     color: #f2f2f2;
 }
 
 @media screen and (min-width:768px) {
 	@supports (-webkit-text-stroke:2px #f2f2f2) or (text-stroke:2px #f2f2f2) {
-		body.night-mode .module-project .project-name, 
+		body.night-mode .module-project .project-name,
 		body.ultra-mode .module-project .project-name {
 			color:transparent;
 			-webkit-text-stroke:2px #f2f2f2;
@@ -742,24 +742,24 @@ body.ultra-mode .module-project a:hover .project-name {
 	}
 }
 
-body.night-mode .module-copy-image .copy .link, 
-body.night-mode .module-copy-image .copy a, 
-body.night-mode .module-copy-image .image .caption a, 
-body.ultra-mode .module-copy-image .copy .link, 
-body.ultra-mode .module-copy-image .copy a, 
+body.night-mode .module-copy-image .copy .link,
+body.night-mode .module-copy-image .copy a,
+body.night-mode .module-copy-image .image .caption a,
+body.ultra-mode .module-copy-image .copy .link,
+body.ultra-mode .module-copy-image .copy a,
 body.ultra-mode .module-copy-image .image .caption a {
     color: #f2f2f2;
 }
 
-body.night-mode .flex-3 .chat:not(:nth-child(odd)), 
+body.night-mode .flex-3 .chat:not(:nth-child(odd)),
 body.ultra-mode .flex-3 .chat:not(:nth-child(odd)) {
 	color:#000
 }
-body.night-mode .flex-2 a, 
+body.night-mode .flex-2 a,
 body.night-mode .flex-3 a,
-body.night-mode .next-post a, 
-body.ultra-mode .flex-2 a, 
-body.ultra-mode .flex-3 a, 
+body.night-mode .next-post a,
+body.ultra-mode .flex-2 a,
+body.ultra-mode .flex-3 a,
 body.ultra-mode .next-post a {
     color: #f2f2f2
 }
@@ -3979,6 +3979,37 @@ height:calc(100vh - (106px + 15vh) - 130px);
 .journal-post-page .margin-bottom-0 {
     margin-bottom: 0
 }
+/*Projects - section */
+.project-detail,
+.project-detail h5,
+.project-detail h6{
+	/*font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft Yahei", "Wenquanyi Micro Hei", sans-serif;*/
+  font-family:source-han-sans-simplified-c,Helvetica,Arial;
+  font-weight: 400; /* Source Han Sans CN Regular  */
+	font-style: normal;
+  font-size:14px;
+}
+.project-detail .project-service{
+	list-style: none;
+	padding: 0;
+	margin-right: 0;
+}
+.project-detail .project-service li{
+  line-height: 24px;
+  font-size:14px;
+}
+.project-detail .project-service-title,
+.project-detail h5{
+  font-weight: bold;
+  padding: 0;
+  margin:32px 0;
+  font-size:16px;
+}
+.project-detail h4{
+  font-weight: bold;
+  padding: 0;
+  margin-left: 0;
+  font-size:16px;
 
-
+}
 /*# Copyright © 2018-2019 Reed Creative Info. All rights reserved. */
